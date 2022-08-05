@@ -2,5 +2,5 @@
 
 set -eo pipefail
 
-echo "-----> Deleting node buildpack directory"
-rm -rf "$BUILD_DIR/.heroku/node/"
+echo "-----> Deleting node buildpack directory ($BUILD_DIR/.heroku/node)"
+rm -rf $BUILD_DIR/.heroku/node
