@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+echo "-----> Deleting node buildpack directory"
+rm -rf "$BUILD_DIR/.heroku/node/"
